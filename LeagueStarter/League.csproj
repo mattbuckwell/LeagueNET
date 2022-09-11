@@ -16,4 +16,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Players\" />
+    <Folder Include="Pages\Teams\" />
+  </ItemGroup>
+
 </Project>
