@@ -177,3 +177,4 @@ C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.c
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.dll
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.pdb
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.genruntimeconfig.cache
+C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.csproj.AssemblyReference.cache
