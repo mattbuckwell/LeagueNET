@@ -32,7 +32,19 @@ namespace League.Pages.Teams
             Conferences = await _context.Conferences.ToListAsync();
             Divisions = await _context.Divisions.ToListAsync();
             Teams = await _context.Teams.ToListAsync();
+
+            if (FavouriteTeam != null)
+            {
+                HttpContext.Session.SetString("_Favourite", FavouriteTeam);
+            }
+            else
+            {
+                FavouriteTeam = HttpContext.Session.GetString("_Favourite");
+            }
         }
+
+        [BindProperty(SupportsGet = true)]
+        public string FavouriteTeam { get; set; }
 
         // Get all Divisions from a Conference and sort them by Name
         public List<Division> GetConferenceDivisions(string ConferenceId)
