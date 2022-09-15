@@ -161,9 +161,13 @@ C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.T
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.RazorCoreGenerate.cache
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Index.cshtml.g.cs
+C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Player.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Teams\Index.cshtml.g.cs
+C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Teams\Team.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.RazorTargetAssemblyInfo.cache
@@ -173,8 +177,3 @@ C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.c
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.dll
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.pdb
 C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.genruntimeconfig.cache
-C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\League.csproj.AssemblyReference.cache
-C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Index.cshtml.g.cs
-C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Player.cshtml.g.cs
-C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Teams\Index.cshtml.g.cs
-C:\Users\mattb\projects\LeagueNET\LeagueStarter\obj\Debug\netcoreapp3.1\Razor\Pages\Teams\Team.cshtml.g.cs

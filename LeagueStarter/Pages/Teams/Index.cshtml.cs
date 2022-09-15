@@ -27,6 +27,10 @@ namespace League.Pages.Teams
         public List<Division> Divisions { get; set; }
         public List<Team> Teams { get; set; }
 
+        // Allows storage of a favourite team
+        [BindProperty(SupportsGet = true)]
+        public string FavouriteTeam { get; set; }
+
         public async Task OnGetAsync()
         {
             Conferences = await _context.Conferences.ToListAsync();
@@ -42,9 +46,6 @@ namespace League.Pages.Teams
                 FavouriteTeam = HttpContext.Session.GetString("_Favourite");
             }
         }
-
-        [BindProperty(SupportsGet = true)]
-        public string FavouriteTeam { get; set; }
 
         // Get all Divisions from a Conference and sort them by Name
         public List<Division> GetConferenceDivisions(string ConferenceId)
