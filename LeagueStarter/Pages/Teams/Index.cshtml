@@ -3,3 +3,30 @@
 @{
     ViewData["Title"] = "NRL Teams";
 }
+
+<div class="jumbotron p-2 d-flex justify-content-between">
+    <h2 class="display-3"><img src="/image/nfl/nfl.png"> Teams 2019-2020</h2>
+</div>
+
+<section class="grid">
+    @foreach (Conference Conference in Model.Conferences)
+    {
+        <h4>@Conference.Name</h4>
+
+        @foreach (Division Division in Model.GetConferenceDivisions(Conference.ConferenceId))
+        {
+            <h5>@Division.Name</h5>
+
+            @foreach (Team Team in Model.GetDivisonTeams(Division.DivisionId))
+            {
+                <a class="d-flex p1" asp-page="./Team" asp-route-id="@Team.TeamId">
+                    <div style="flex:0 0 25%">@Team.Location</div>
+                    <div style="flex:0 0 25%">@Team.Name</div>
+                    <div style="flex:0 0 5%">@Team.Win</div>
+                    <div style="flex:0 0 5%">@Team.Loss</div>
+                    <div style="flex:0 0 5%">@Team.Tie</div>
+                </a>
+            }
+        }
+    }
+</section>
