@@ -6,6 +6,14 @@
 
 <div class="jumbotron p-2 d-flex justify-content-between">
     <h2 class="display-3"><img src="/image/nfl/nfl.png"> Teams 2019-2020</h2>
+    <form class="d-flex">
+        <div class="form-group pr-2">
+            <label class="col-form-label control-label" asp-for="FavouriteTeam">Favourite:</label>
+            <select class="form-control" asp-for="FavouriteTeam" asp-items="Model.AllTeams" onchange="this.form.submit()">
+                <option value="">None</option>
+            </select>
+        </div>
+    </form>
 </div>
 
 <section class="grid">
