@@ -7,6 +7,33 @@
 
 <div class="jumbotron p-2 d-flex">
     <h2 class="mr-auto display-3"><img src="/image/nfl/nfl.png"/> Players</h2>
+    <form class="d-flex">
+        <div class="form-gorup pr-2">
+            <label class="col-form-label control-label" asp-for="SelectedTeam">Team:</label>
+            <select class="form-control" asp-for="SelectedTeam" asp-items="Model.Teams" onchange="this.form / submit();">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="form-group pr-2">
+            <label class="col-form-label control-label" asp-for="SelectedPosition">Position:</label>
+            <select class="form-control" asp-for="SelectedPosition" asp-items="Model.Positions" onchange="this.form.submit();">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="form-gorup pr-2">
+            <label class="col-form-label control-label" asp-for="SearchString">Name:</label>
+            <input class="form-cotrol" type="text" asp-for="SearchString" />
+            <input  class="form-control btn btn-primary btn-sm mr-auto" type="submit" value="Search"  />
+        </div>
+        <div class="form-gorup pr-2">
+            <label class="col-form-label control-label" asp-for="SortField">Sort by:</label>
+            <select class="form-control" asp-for="SortField" onchange="this.form.submit();">
+                <option value="Number">Number</option>
+                <option value="Name">Name</option>
+                <option value="Position">Position</option>
+            </select>
+        </div>
+    </form>
 </div>
 
 <section class="grid">
